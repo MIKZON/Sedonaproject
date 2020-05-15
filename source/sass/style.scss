@@ -1,0 +1,55 @@
+@import "variables";
+@import "fonts";
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: 1200px;
+  font-family: $ptsans;
+  text-transform: uppercase;
+  background-color: #f2f2f2;
+  box-shadow: 0 0 20px 0px black;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.wrapper {
+  background-color: #ffffff;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+@import "blocks/page-header1";
+@import "blocks/main-nav";
+@import "blocks/container";
+@import "blocks/reason";
+@import "blocks/advantages";
+@import "blocks/search";
+@import "blocks/form";
+@import "blocks/page-footer";
+@import "blocks/filter-group";
+@import "blocks/sorting";
+@import "blocks/hotel-result";
+@import "blocks/button";
+@import "blocks/hotel-search";
+@import "blocks/visit";
+@import "blocks/social";
+@import "blocks/copyright";
+@import "blocks/map";
+@import "blocks/cost-range";

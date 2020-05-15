@@ -1,0 +1,22 @@
+.copyright__text {
+  margin: 0;
+  margin-right: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.copyright__link {
+  margin-right: 6px;
+  padding-top: 3px;
+  padding-top: 9px;
+}
+
+.copyright__link:hover path {
+  fill: #81b3d2;
+}
+
+.copyright__link:active path {
+  fill: #bebcbd;
+}

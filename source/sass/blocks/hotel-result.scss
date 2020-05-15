@@ -1,0 +1,161 @@
+.hotel-result__list {
+  padding: 0;
+  margin: 0;
+  margin-left: 71px;
+  list-style: none;
+}
+
+.hotel-result__title,
+.hotel-result__type,
+.hotel-result__price,
+.hotel-result__rating {
+  margin: 0;
+}
+
+.hotel-result__title {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+
+.hotel-result__type,
+.hotel-result__price {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 21px;
+}
+
+.hotel-result__item {
+  display: flex;
+  margin-bottom: 58px;
+}
+
+.hotel-result__item:nth-child(3) {
+  margin-bottom: 35px;
+}
+
+.hotel-result__rate {
+  margin-left: auto;
+  margin-right: 84px;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.hotel-result__stars {
+  padding: 0;
+  background-image: url("../img/star.svg");
+  background-color: transparent;
+  background-repeat: repeat-x;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-size: 20px 20px;
+  height: 30px;
+  margin-right: -13px;
+}
+
+.hotel-result__stars--one {
+  width: 20px;
+}
+
+.hotel-result__stars--two {
+  width: 40px;
+}
+
+.hotel-result__stars--three {
+  width: 60px;
+}
+
+.hotel-result__stars--four {
+  width: 80px;
+}
+
+.hotel-result__stars--five {
+  width: 100px;
+}
+
+.hotel-result__rating {
+  font-size: 14px;
+  line-height: 21px;
+  background: #f2f2f2;
+  display: flex;
+  width: 109px;
+  min-height: 26px;
+  align-items: center;
+  justify-content: center;
+  margin-right: -12px;
+}
+
+.hotel-result__more {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 21px;
+  color: #ffffff;
+  width: 109px;
+  height: 27px;
+  background-color: #81b3d2;
+  border: 0;
+  padding: 0;
+}
+
+.hotel-result__reservation {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 21px;
+  color: #ffffff;
+  width: 141px;
+  height: 27px;
+  background-color: #766357;
+  border: 0;
+  padding: 0;
+  margin-left: 2px;
+}
+
+.hotel-result__wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 180px;
+  margin-bottom: 14px;
+}
+
+.hotel-result__image {
+  background-color: #1c4f80;
+  margin-right: 32px;
+}
+
+.hotel-result__title:hover {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+  margin-bottom: 7px;
+  color: #81b3d2;
+}
+
+.hotel-result__title:active {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+  margin-bottom: 7px;
+  color: #e7e7e7;
+}
+
+.hotel-result__more:hover {
+  background-color: #669ec0;
+}
+
+.hotel-result__more:active {
+  background-color: #5496bd;
+}
+
+.hotel-result__reservation:hover {
+  background-color: #604e43;
+}
+
+.hotel-result__reservation:active {
+  background-color: #503e33;
+}

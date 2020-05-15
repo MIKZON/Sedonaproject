@@ -1,0 +1,87 @@
+.sorting {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 57px;
+}
+
+.sorting__title,
+.sorting__subtitle  {
+  margin: 0;
+}
+
+.sorting__subtitle {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 18px;
+  margin-right: 44px;
+}
+
+.sorting__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  min-width: 236px;
+  justify-content: space-between;
+}
+
+.sorting__item {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 18px;
+}
+
+.sorting__title {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+  margin-left: 71px;
+  margin-right: 48px;
+}
+
+.sorting__item {
+  color: #81b3d2;
+}
+
+.sorting__link {
+  color: #d2d2d2;
+  border-bottom: 1px dotted #81b3d2;
+}
+
+.sorting__link--active:hover {
+  color: #81b3d2;
+  border-bottom: none;
+}
+
+.sorting__link--active:active {
+  color: #000000;
+  border-bottom: none;
+}
+
+.sorting__block {
+  margin-left: auto;
+  margin-right: 70px;
+  border: 0;
+}
+
+.sorting__button {
+  width: 18px;
+  height: 18px;
+  border: 0;
+  background-color: transparent;
+  outline: none;
+  padding: 0;
+}
+
+.sorting__button:focus {
+  outline: 1px solid lightblue;
+}
+
+.sorting__button:hover path {
+  fill: #000000;
+}
+
+.sorting__button:active path {
+  fill: #81b3d2;
+}

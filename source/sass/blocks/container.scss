@@ -1,0 +1,23 @@
+.container {
+  background-color: #ffffff;
+}
+
+.container__title {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+  margin: 0 auto 28px auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 535px;
+}
+
+.container__description {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 26px;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 51px;
+}

@@ -1,0 +1,23 @@
+.page-footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+.page-footer__copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 70px;
+}
+
+
+.copyright__text {
+  margin: 0;
+}
+
+
+
